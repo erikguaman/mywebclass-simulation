@@ -1,18 +1,24 @@
 ## Team Productivity Log
 
-| Issue Title                    | Story Points | Issue Link | Status      | Assigned To    | Assigned On | Completed On | Category      | Status Notes |
-|--------------------------------|--------------| --- |-------------|----------------|-------------|--------------|---------------|--------------|
-| SEO Updates                    | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/1) | Done        | Jason Bilawsky | 2023-03-23  | 2023-03-23   | Documentation | -            |
-| SEO Implementation             | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/2) | Done        | Jason Bilawsky | 2023-03-12  | 2023-03-23   | Feature       | -            |
-| Implementing DevOps            | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/8) | Done        | Erik Guaman    | 2023-03-10  | 2023-03-23   | Documentation | -            |
-| Implementing SRE               | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/9) | Done        | Erik Guaman    | 2023-03-22  | 2023-03-23   | Documentation | -            |
-| Add Navigation Bar             | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/10) | Done        | Erik Guaman    | 2023-03-23  | 2023-03-23   | Feature       | -            |
-| Privacy Policy                 | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/11) | Done        | Jason Bilawsky | 2023-03-22  | 2023-03-23   | Feature       | -            |
-| privacy policy                 | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/12) | Done        | Jason Bilawsky | 2023-03-23  | 2023-03-23   | Bug Fix       | -            |
-| priv-format                    | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/13) | Done        | Jason Bilawsky | 2023-03-23  | 2023-03-23   | Bug Fix       | -            |
-| Web accessibility Improvements | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/3) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Documentation | -            |
-| fix body content of webpages   | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/16) | Done        | Erik Guaman    | 2023-03-22  | 2023-03-23   | Feature       | -            |
-| Internationalization           | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/4) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Documentation | -            |
-| legal research                 | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/5) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Bug Fix       | -            |
-| Building a productivity log    | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/19) | Done        | Erik Guaman    | 2023-03-23  | 2023-03-23            | Documentation | -            |
-| Fix footer section of the webpage    | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/21) | Done        | Erik Guaman    | 2023-03-23  | 2023-03-23            | Bug Fix       | -            |
+| Issue Title                          | Story Points | Issue Link | Status      | Assigned To    | Assigned On | Completed On | Category      | Status Notes |
+|--------------------------------------|--------------| --- |-------------|----------------|-------------|--------------|---------------|--------------|
+| SEO Updates                          | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/1) | Done        | Jason Bilawsky | 2023-03-23  | 2023-03-23   | Documentation | -            |
+| SEO Implementation                   | 4            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/2) | Done        | Jason Bilawsky | 2023-03-12  | 2023-03-23   | Feature       | -            |
+| Implementing DevOps                  | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/8) | Done        | Erik Guaman    | 2023-03-10  | 2023-03-23   | Documentation | -            |
+| Implementing SRE                     | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/9) | Done        | Erik Guaman    | 2023-03-22  | 2023-03-23   | Documentation | -            |
+| Add Navigation Bar                   | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/10) | Done        | Erik Guaman    | 2023-03-23  | 2023-03-23   | Feature       | -            |
+| Privacy Policy                       | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/11) | Done        | Jason Bilawsky | 2023-03-22  | 2023-03-23   | Feature       | -            |
+| privacy policy                       | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/12) | Done        | Jason Bilawsky | 2023-03-23  | 2023-03-23   | Bug Fix       | -            |
+| priv-format                          | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/13) | Done        | Jason Bilawsky | 2023-03-23  | 2023-03-23   | Bug Fix       | -            |
+| Web accessibility Improvements       | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/3) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Documentation | -            |
+| fix body content of webpages         | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/16) | Done        | Erik Guaman    | 2023-03-22  | 2023-03-23   | Feature       | -            |
+| Internationalization                 | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/4) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Documentation | -            |
+| legal research                       | 2            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/5) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Bug Fix       | -            |
+| Building a productivity log          | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/19) | Done        | Erik Guaman    | 2023-03-23  | 2023-03-23   | Documentation | -            |
+| Fix footer section of the webpage    | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/21) | Done        | Erik Guaman    | 2023-03-23  | 2023-03-23   | Bug Fix       | -            |
+| Web Developer (story1)               | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/23) | In Progress | Jason Bilawsky | 2023-03-21  | -            | Documentation | -            |
+| Website Visitor (story2)             | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/26) | Done        | Erik Guaman    | 2023-03-22  | 2023-03-23   | Documentation | -            |
+| milestones (story3)                  | 8            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/24) | Done        | Jason Bilawsky | 2023-03-21  | 2023-03-23   | Documentation | -            |
+| Milestones (Stakeholder) - (Story 4) | 3            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/27) | Done        | Erik Guaman      | 2023-03-21  | 2023-03-23   | Bug Fix       | -            |
+| Product Manager Research (story 5)   | 8            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/28) | In progress | Erik Guaman    | 2023-03-22  | -            | Documentation | -            |
+| UX research (story 6)    | 5            | [Link](https://github.com/erikguaman/mywebclass-simulation/issues/25) | In Progress | Erik Guaman    | 2023-03-22  | -            | Documentation | -            | 

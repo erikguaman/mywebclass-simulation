@@ -49,10 +49,6 @@
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="content.html" style="color: cream;">Content Template</a>
-                            <a class="nav-link" href="content.html">Content Template</a>
-                            <a class="nav-link" href="story.html">About Us</a>
-                            <a class="nav-link" href="index.html">Home</a>
-                            <a class="nav-link" href="privacy.html">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +57,7 @@
     </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row" style="padding-top: 50px;">
             <!-- Sidebar menu with scrollspy -->
             <nav class="col-md-2 col-lg-2 d-md-block bg-light sidebar collapse position-fixed" id="sidebarMenu">
                 <div class="position-sticky pt-3">
@@ -71,13 +67,15 @@
             </nav>
 
             <!-- Main content area -->
-            <main class="col-md-9 ms-sm-auto col-lg-9 px-md-4">
+            <main class="col-md-9 ms-sm-auto col-lg-9 px-md-4" style="padding-top: 60px; padding-bottom: 30px;">
 
                 <h1 class="fw-bold border-bottom" id="title">Privacy Policy</h1>
-                <div class="text-muted mb-3 ">By <a href="#">Jason Bilawsky</a><span class="text-muted me-3"> Last Updated:
+
+                <div class="text-muted mb-3 " style="padding-bottom: 30px;">By <a href="#">Jason Bilawsky</a><span class="text-muted me-3"> Last Updated:
               March 22, 2023</span> <span class="text-muted" id="readingTime">0</span>
                 </div>
                 <section class="row">
+
                     <h1>Privacy Policy</h1>
 
                     <p>This Privacy Policy explains how we collect, use, and protect your personal
@@ -149,48 +147,51 @@
             </main>
         </div>
         <footer class="py-5 container">
-            <div class="row">
-                <div class="col">
-                    <h1>About Us</h1>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="story.html">Our
-                            Story</a>
-                        </li>
-
-                        <a aria-current="page" class="nav-link mb-2 p-0 text-muted active" href="privacy.html">Privacy
-                            Policy</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-3 ">
-                    <h1>Share on Social Media</h1>
-                    <ul class="nav">
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="#"><i
-                                class="bi bi-linkedin me-2"></i></a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="#"><i
-                                class="bi bi-twitter me-2"></i></a>
-                        </li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="#"><i
-                                class="bi bi-facebook me-2"></i></a></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-md-5 offset-md-1 mb-3">
-                    <form>
-                        <h1>Subscribe to our newsletter</h1>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label class="visually-hidden" for="newsletter1">Email address</label>
-                            <input class="form-control" id="newsletter1" placeholder="Email address" type="text">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
+        <div class="row">
+            <div class="col-md-5 offset-md-0 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
             </div>
-        </footer>
+
+
+            <div class="col-sm-2 "></div>
+            <div class="col-sm-3 ">
+                <h5>Share on Social Media</h5>
+                <ul class="nav">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                            class="bi bi-linkedin me-2"></i></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                            class="bi bi-twitter me-2"></i></a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                            class="bi bi-facebook me-2"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>About Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                    <li class="nav-item mb-2"><a href="story.html" class="nav-link p-0 text-muted">Our
+                        Story</a>
+                    </li>
+
+                    <a class="nav-link mb-2 p-0 text-muted active" aria-current="page" href="privacy.html">Privacy
+                        Policy</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
     </div>
 </body>
 

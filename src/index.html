@@ -39,6 +39,11 @@
             margin-right: auto;
         }
     }
+
+    document.getElementById("current-page-link").href = window.location.href;
+    document.getElementById("current-page").href = window.location.href;
+    document.getElementById("current-link-page").href = window.location.href;
+
     </style>
 
 </head>
@@ -105,12 +110,12 @@
             <div class="col-sm-3 ">
                 <h5>Share on Social Media</h5>
                 <ul class="nav">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                    <li class="nav-item mb-2"><a id="current-page-link" href="" class="nav-link p-0 text-muted"><i
                             class="bi bi-linkedin me-2"></i></a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                    <li class="nav-item mb-2"><a id="current-page" href="" class="nav-link p-0 text-muted"><i
                             class="bi bi-twitter me-2"></i></a>
                     </li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                    <li class="nav-item mb-2"><a id="current-link-page" href=""  class="nav-link p-0 text-muted"><i
                             class="bi bi-facebook me-2"></i></a></li>
                 </ul>
             </div>

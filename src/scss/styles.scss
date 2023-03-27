@@ -13,12 +13,18 @@ html {
     --banner-height: 64px;
   }
 
+header nav{
+    background-color: #BA8300;
+}
+
+
 body.banner-offset {
     margin-top: calc(var(--bs-gutter-y) + var(--banner-height));
   }
 
   #sidebarMenu .nav-link.active {
     text-decoration: underline;
+    color: cream;
   }
   footer {
     h1, h2, h3, h4, h5, h6 {

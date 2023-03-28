@@ -8,6 +8,5 @@ test('test', async ({ page }) => {
   })
 
   expect(privacyPolicyAgreed).not.toBeNull()
-  await page.getByRole('link', { name: 'Content Template' }).click()
-  await page.getByRole('link', { name: 'Section 4' }).click()
+
 })

@@ -1,18 +1,12 @@
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
+test('test', async ({ page }) => {
+ 	await page.goto('http://localhost:3000/');
+ 	await page.getByRole('button', { name: 'Agree', exact: true }).click();
+ 	await page.getByRole('link', { name: 'MyWebClass' }).click();
+ 	await page.getByRole('button', { name: 'Begin Here' }).click();
+ 	await page.goto('http://localhost:3000/');
+ 	await page.getByRole('link', { name: '' }).click();
+const currentUrl = page.url();
+ 	const originalUrl = 'http://localhost:3000/';
+ 	expect(currentUrl).toBe(originalUrl); });
 
-test('Click LinkedIn button leads to current page', async ({ page }) => {
-  // Navigate to the current page
-  await page.goto('http://localhost:3000/');
-
-  // Click the LinkedIn button
-  const linkedinButton = await page.$('.bi bi-linkedin');
-  await linkedinButton.click();
-
-  // Wait for the navigation to complete
-  await page.waitForNavigation();
-
-  // Verify that the current URL is the same as the original URL
-  const currentUrl = page.url();
-  const originalUrl = 'http://localhost:3000/';
-  expect(currentUrl).toBe(originalUrl);
-});

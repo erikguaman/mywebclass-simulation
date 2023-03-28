@@ -65,5 +65,5 @@ Finally, use Playwright to create powerful and reliable automated tests for web 
 # ADD YOUR PROJECT LINKS BELOW THIS 
 - Developer Documentation Link: https://github.com/erikguaman/mywebclass-simulation/wiki/Developer-Documentation
 - Deployment Documentation Link: https://github.com/erikguaman/mywebclass-simulation/wiki/Deployment-Documentation
-- View Website here: https://erikguaman.github.io/mywebclass-simulation/
+- View Website here: https://erikguaman.github.io/mywebclass-simulation/src/index.html
 
